@@ -1,10 +1,10 @@
 # SpecSheet
 
-A tool that turns dense component datasheets into clean, structured summaries — voltage range, current rating, package type, operating temperature, absolute max ratings, pinout, key features, and warnings — pulled out and organized so you can actually scan them.
+A tool that turns dense component datasheets into clean, structured summaries: voltage range, current rating, package type, operating temperature, absolute max ratings, pinout, key features, and warnings — pulled out and organized so you can actually scan them.
 
 ## Why I built this
 
-During my embedded HW/SW internship, I spent a lot of time digging through component datasheets to review and select parts — and a lot of that time went into just finding the numbers I actually needed, buried across dozens of pages of formatting that varies wildly between manufacturers. I got the idea to build SpecSheet to fix that: upload a datasheet, get the key specs back in a consistent, readable format instead of re-reading the same PDF structure every time.
+During my embedded HW/SW internship, I spent a lot of time digging through component datasheets to review and select parts, and a lot of that time went into just finding the numbers I actually needed, buried across dozens of pages of formatting that varies wildly between manufacturers. I got the idea to build SpecSheet to fix that: upload a datasheet, get the key specs back in a consistent, readable format instead of re-reading the same PDF structure every time.
 
 ## What it does
 
@@ -26,7 +26,7 @@ During my embedded HW/SW internship, I spent a lot of time digging through compo
 Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
 
 ```sh
-git clone <this-repository-url>
+git clone https://github.com/swetha-codes/SpecSheet.git
 cd <repository-name>
 npm i
 npm run dev
