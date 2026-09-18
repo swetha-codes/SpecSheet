@@ -1,6 +1,6 @@
 # SpecSheet
 
-A tool that turns dense component datasheets into clean, structured summaries: voltage range, current rating, package type, operating temperature, absolute max ratings, pinout, key features, and warnings — pulled out and organized so you can actually scan them.
+A tool that turns dense component datasheets into clean, structured summaries: voltage range, current rating, package type, operating temperature, absolute max ratings, pinout, key features, and warnings, pulled out and organized so you can actually scan them.
 
 ## Why I built this
 
@@ -27,14 +27,7 @@ Prefer working locally? You need Node.js and npm — [install with nvm](https://
 
 ```sh
 git clone https://github.com/swetha-codes/SpecSheet.git
-cd <repository-name>
+cd SpecSheet
 npm i
 npm run dev
 ```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
